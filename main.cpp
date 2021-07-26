@@ -10,6 +10,7 @@ int main(int argc, char *argv[])
     image = cv::imread("/home/danning/Pictures/profile.jpg");
     namedWindow("Display Image", CV_WINDOW_AUTOSIZE);
     imshow("Display Image", image);
+    
     waitKey(0);
     return 0;
 }
